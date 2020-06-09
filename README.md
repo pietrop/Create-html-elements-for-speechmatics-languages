@@ -72,7 +72,7 @@ If more languages are added to the STT by speechmatics, here's how you update th
 
 _note: because the speechmatics page does not use a table it's harder to write a proper scraper like in the [google example module](https://github.com/pietrop/Create-select-html-element-for-Google-Languages), hence the manual copy and paste in local text file. Ideal solution would be a API end point that returns the list of available languages and language codes. But meanwhile this will do._
 
-- Visit [https://www.speechmatics.com/language-support](speechmatics.com/language-support)
+- Visit [https://www.speechmatics.com/language-support](https://www.speechmatics.com/language-support)
 - Select languages in web page,
 - copy 
 - pase in [`./languages_from_site.txt`](./languages_from_site.txt) see existing file for expected output, languages, and then list of language codes.
